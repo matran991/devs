@@ -58,25 +58,24 @@ zoom: 2;}
 #profile-advanced-details .avatar {width: inherit}
 #profile-advanced-details .bottom,#profile-advanced-layout {display: none;margin-top: 50px;}
 #friend_add {margin-top: 20px;text-align: right;}
-.walluser a[href^="/profile?"], #profile-advanced-details[data$="friends"] .message-footer li a[href^="/u"] {font-size: 0;display: inline-block;line-height: 35px;padding: 0 20px;text-align: center;background: #91FD19;margin-right: 30px;color: white;border: 2px solid #ccc;border-radius: 10px;}
+.walluser a[href^="/profile?"], #profile-advanced-details .message-footer li a[href^="/u"] {font-size: 0;display: inline-block;line-height: 35px;padding: 0 20px;text-align: center;background: #91FD19;margin-right: 30px;color: white;border: 2px solid #ccc;border-radius: 10px;}
 .walluser a[href^="/profile?"]:before {font-size: 14px;font-family: Tahoma,FontAwesome;display: block;}
 .walluser a[href*="friend="]:before,.walluser a[href*="foe="]:before {#friend_adda: before;content: "\f234";font-size: 40px;margin-top: 22px;}
 .walluser a[href*="friend="]:after {content: "Kết bạn";font-size: 15px;font-weight: bold;}
 .walluser a[href*="foe="]:after {content: "Gây Thù";font-size: 15px;font-weight: bold;}
 .walluser a[href*="foe="]:before {content: "\f235";}
 .walluser a[href*="foe="] {background: red;}
-.walluser a[href^="/profile?"]:hover,#profile-advanced-details[data$="friends"] .message-footer li a:hover {background: black!Important;}
-#profile-advanced-details[data$="friends"] .message-footer li a {line-height: inherit;padding: 5px 20px;font-size: 0}
-
+#profile-advanced-details .message-footer li a {line-height: inherit;padding: 5px 20px;font-size: 0}
 #profile-advanced-details .message-footer li a:before, #profile-advanced-details .message-footer li a:after {font-size: 15px;display: inline-block;margin-top: 0;margin-right: 5px;float: left}
 #profile-advanced-details .message-footer li:after {display: none}
 #profile-advanced-details .message-footer {margin: 5px 0;padding-left: 0}
 #profile-advanced-details .message-footer li a[href^="/u"]:before {font-family: FontAwesome,Tahoma}
-#profile-advanced-details[data$="friends"] .message-footer li a[href^="/u"]:before {content: "\f007  Xem thông tin"}
+#profile-advanced-details .message-footer li a[href^="/u"]:before {content: "\f007  Xem thông tin"}
 #profile-advanced-details .message-footer li a[href*="wall?d"]:before {content: "\f1f8  Xóa Tin"!important}
 #profile-advanced-details .message-footer li a[href*="wall?d"] {background: darkred!Important}
 #profile-advanced-details .message-footer li a[href*="wall?s"]:before {content: "\f070  Ẩn Tin"!important}
 #profile-advanced-details .message-footer li a[href*="wall?s"] {background: darkmagenta!important}
-#profile-advanced-details[data$="friends"] .message-footer li a[href^="/u"] {line-height: inherit;padding: 5px 20px;font-size: 0;margin-right: 5px;background: darkgoldenrod}
+#profile-advanced-details .message-footer li a[href^="/u"] {line-height: inherit;padding: 5px 20px;font-size: 0;margin-right: 5px;background: darkgoldenrod}
 #new-message-link a[title^="New"],#new-message-link a[title^="New"] span {font-size: 0;}
-#new-message-link a[title^="New"]:before {content: "\f067  Viết Lên Tường";font-size: 17px;font-family: Tahoma,FontAwesome;}    
+#new-message-link a[title^="New"]:before {content: "\f067  Viết Lên Tường";font-size: 17px;font-family: Tahoma,FontAwesome;}   
+.walluser a[href^="/profile?"]:hover,#profile-advanced-details .message-footer li a:hover {background: black!Important;} 
