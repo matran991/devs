@@ -22,26 +22,26 @@ li.avata_wall + li {margin-left: 190px!important}
 #wall_info {position: absolute;bottom: 54px;left: 216px;right: 0;}
 #wall_name a {font-family: helvetica, arial, sans-serif;font-size: 24px;line-height: 30px;max-width: 275px;font-weight: bold;letter-spacing: 0;color: white;text-shadow: 0 0 5px black,0 0 5px black,0 0 5px black}
 #friend_wrap .friend_list_online_status {display: none}
-#friend_wrap .avatar img {width: 100px;height: 100px;position: absolute;left: 0;top: 0;}
+#friend_wrap .avatar img {width: 100px;height: 100px;position: absolute;left: 0;top: 0;border: 0;right: 0;display: block;margin: 0 auto;}
 #friend_wrap .avatar,#friend_wrap .friend-block {width: inherit;margin: 5px;}
 #friend-head {background: #f6f7f8;padding: 10px;border-bottom: 1px solid #ccc}
 .friend-block a {width: 120px;height: 132px;}
-#friend_wrap .avatar {position: relative;width: 109px;height: 109px;border: 0;float: initial}
-#wall_content {margin-left: 290px}
+#friend_wrap .avatar {position: relative;width: 109px!important;height: 109px;border-bottom: 1px solid #ccc!important;float: initial;text-align: center;margin: 0 auto;}
+#wall_content {margin-left: 51%;}
 #wall_content .message-block .clearfix {display: none}
-#wall_left {display: block;width: 280px;text-align: center;float:left}
+#wall_left {display: block;width: 50%;text-align: center;float:left}
 
-#music_wall {display: block;margin-bottom: 10px;border: 1px solid #ccc;float: left;width: 280px;background: white;transition: width 0.5s;position: relative;z-index: 1}
+#music_wall {display: block;margin-bottom: 10px;border: 1px solid #ccc;float: left;width: 100%;background: white;transition: width 0.5s;position: relative;z-index: 1}
 #music_wall:hover {width: 640px}
 #music_wall .music_frame {padding: 5px;background: white;border: 0;float: left}
 
 .title_all {white-space: nowrap;width: 100%;display: inline-block;overflow: hidden;text-overflow: ellipsis}
-#friend_wrap .friend-block {display: inline-block;float: initial;border: 1px solid #ccc;padding: 5px 1px}
-#wall_friend {
-float: left;background: white;border: 1px solid #ccc;display: block;width: 280px;text-align: center;}
-#friend_wrap {float: left;padding: 5px;text-align: center;}
+#friend_wrap .friend-block {display: inline-block;float: initial;border: 1px solid #ccc;padding: 1px;border-radius: 3px;}
+#wall_friend,#rank_wall {float: left;background: white;border: 1px solid #ccc;display: block;width: 100%;text-align: center;margin-bottom: 10px;}
+#rank_wall p{padding: 5px,font-size:18px;}
+#friend_wrap {float: left;padding: 5px;text-align: center;max-height: 285px;      overflow: hidden;}
 .friend-block a span {text-shadow: 0 0 1px #ccc,0 0 1px #ccc,0 0 1px #ccc;}
-.friend-block a {text-align: center;float: left;position: relative;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;width: 120px;      height: 132px;}
+.friend-block a {text-align: center;float: left;position: relative;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;width: 109px;      height: 130px;}
 .all_friend {float: right}
 #profile-advanced-right {display: none}
 #profile-advanced-left {margin-right: 0}
@@ -79,17 +79,19 @@ zoom: 2;}
 #wall_center a[href*="foe="]:after {content: "Gây Thù";font-size: 15px;font-weight: bold;vertical-align: middle;}
 #wall_center a[href*="foe="]:before {content: "\f235";}
 #wall_center a[href*="foe="] {background: red;}
-#profile-advanced-details .message-footer li a {line-height: inherit;padding: 5px 20px;font-size: 0}
+#profile-advanced-details .message-footer li a {line-height: inherit;padding: 5px;font-size: 0}
+
+a {}
 #profile-advanced-details .message-footer li a:before, #profile-advanced-details .message-footer li a:after {font-size: 15px;display: inline-block;margin-top: 0;margin-right: 5px;float: left}
 #profile-advanced-details .message-footer li:after {display: none}
 #profile-advanced-details .message-footer {margin: 5px 0;padding-left: 0;padding: 5px 0;}
 #profile-advanced-details .message-footer li a[href^="/u"]:before {font-family: FontAwesome,Tahoma}
-#profile-advanced-details .message-footer li a[href^="/u"]:before {content: "\f007  Xem Thông Tin"}
+#profile-advanced-details .message-footer li a[href^="/u"]:before {content: "\f007";}
 #profile-advanced-details .message-footer li a[href*="wall?d"]:before {content: "\f1f8  Xóa Tin"!important}
 #profile-advanced-details .message-footer li a[href*="wall?d"] {background: darkred!Important}
 #profile-advanced-details .message-footer li a[href*="wall?s"]:before {content: "\f070  Ẩn Tin"!important}
 #profile-advanced-details .message-footer li a[href*="wall?s"] {background: darkmagenta!important}
-#profile-advanced-details .message-footer li a[href^="/u"] {line-height: inherit;padding: 5px 20px;font-size: 0;margin-right: 5px;background: darkgoldenrod}
+#profile-advanced-details .message-footer li a[href^="/u"] {line-height: inherit;padding: 5px;font-size: 0;margin-right: 5px;background: darkgoldenrod}
 #new-message-link a[title^="New"],#new-message-link a[title^="New"] span {font-size: 0;}
 #new-message-link a[title^="New"]:before {content: "\f067  Viết Lên Tường";font-size: 17px;font-family: Tahoma,FontAwesome;}   
 #wall_center a[href^="/profile?"]:hover,#profile-advanced-details .message-footer li a:hover {background: black!Important;} 
@@ -115,5 +117,15 @@ li.avata_wall img {height: inherit!Important;top: inherit!Important;bottom: -25p
 #main-content div + div[style*="clear"] {display: none}
 #wall_content .clear {display: none}
 .message-header a,.message-header .message-date {font-size: 15px;text-shadow: 0 0 1px white,0 0 1px white,0 0 1px white;display: inline-block}
-#profile-advanced-details .message-date {float: right;display: inline-block}
+#profile-advanced-details .message-date {display: none;}
 .message-header a {float: left;display: inline-block;}
+#profile-advanced-details[data*="friend"] .message-header a {float: none;}
+.message-footer li a[href*="foe="]:before,.message-footer li a[href*="friend="]:before,.message-footer li a[href*="remove="]:before {font-family: "FontAwesome";float: inherit;content: "\f235"}
+.message-footer li a[href*="remove="]:before{content: "\f00d";}
+.message-footer li a[href*="foe="],.message-footer li a[href*="remove="] {background: red;color: white}
+.message-footer li a[href*="friend="] {
+background: #91FD19;color: white;}
+.message-footer li a[href*="friend="]:before {content: "\f234"}
+#profile-advanced-details[data*="friend"] .message-footer li,#profile-advanced-details[data*="friend"] .message-footer li a {display: inline-block;margin: 0;margin-right: 5px;}
+.seefr {padding: 5px;display: block;float: initial;text-align: center;white-space: nowrap;max-width: 90%;overflow: hidden;text-overflow: ellipsis;background: darksalmon;margin: 5px auto;color: white!important;border-radius: 3px;}
+.seefr:hover {background: black;}
