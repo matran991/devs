@@ -1,0 +1,119 @@
+/* Wall */
+#bannerwall {height: 359px;position: relative;}
+#banner_text {bottom: 44px;left: 0;overflow: hidden;position: absolute;right: 0;top: 0;background: black;}
+#banner_text img {display: block;left: 0;min-height: 100%;min-width: 100%;position: absolute;top: 0;}
+#bannerwall + .wall_design {margin-top: 0;}
+.wrapbanner {padding: 10px;position: absolute;left: 0;right: 0;bottom: 5%;color: white;text-shadow: 0px 0px 3px black,0px 0px 3px black,0px 0px 3px black;line-height: 30px;}
+li.avata_wall img {position: absolute;top: -150px;height: 170px;width: 170px;background: white;padding: 5px;border-radius: 6px;border: 1px solid #ccc}
+li.avata_wall {position: relative;padding: 0!important}
+li.avata_wall + li {margin-left: 190px!important}
+#tabs ul li a {padding: 5px 10px}
+#tabs ul {padding: 0}
+#banner_tab {padding: 0 10px;position: absolute;bottom: 10px;left: 0;right: 0;background: white;border: 1px solid #ccc;border-top: 0}
+#top_wall {position: relative}
+#tabs ul li a {background: white;border: 0;border-left: 1px solid #ccc}
+#tabs ul li {padding: 0}
+#tabs ul li:last-child {border-right: 1px solid #ccc}
+#tabs ul li a:hover {background: #f6f7f8}
+#tabs ul li.activetab a {background: darkorchid!Important;color: white;border-color: #ccc}
+#tabs ul li.activetab {position: relative;overflow: hidden;z-index: 1}
+#tabs ul li.activetab:after {content: "";background: #EFEFEF;position: absolute;width: 20px;height: 20px;bottom: -20px;left: 38%;transform: rotate(135deg);display: block;border: 1px solid #ccc;z-index: 2}
+#tabs ul li.activetab a:hover {background: white}
+#wall_info {position: absolute;bottom: 54px;left: 216px;right: 0;}
+#wall_name a {font-family: helvetica, arial, sans-serif;font-size: 24px;line-height: 30px;max-width: 275px;font-weight: bold;letter-spacing: 0;color: white;text-shadow: 0 0 5px black,0 0 5px black,0 0 5px black}
+#friend_wrap .friend_list_online_status {display: none}
+#friend_wrap .avatar img {width: 100px;height: 100px;position: absolute;left: 0;top: 0;}
+#friend_wrap .avatar,#friend_wrap .friend-block {width: inherit;margin: 5px;}
+#friend-head {background: #f6f7f8;padding: 10px;border-bottom: 1px solid #ccc}
+.friend-block a {width: 120px;height: 132px;}
+#friend_wrap .avatar {position: relative;width: 109px;height: 109px;border: 0;float: initial}
+#wall_content {margin-left: 290px}
+#wall_content .message-block .clearfix {display: none}
+#wall_left {display: block;width: 280px;text-align: center;float:left}
+
+#music_wall {display: block;margin-bottom: 10px;border: 1px solid #ccc;float: left;width: 280px;background: white;transition: width 0.5s;position: relative;z-index: 1}
+#music_wall:hover {width: 640px}
+#music_wall .music_frame {padding: 5px;background: white;border: 0;float: left}
+
+.title_all {white-space: nowrap;width: 100%;display: inline-block;overflow: hidden;text-overflow: ellipsis}
+#friend_wrap .friend-block {display: inline-block;float: initial;border: 1px solid #ccc;padding: 5px 1px}
+#wall_friend {
+float: left;background: white;border: 1px solid #ccc;display: block;width: 280px;text-align: center;}
+#friend_wrap {float: left;padding: 5px;text-align: center;}
+.friend-block a span {text-shadow: 0 0 1px #ccc,0 0 1px #ccc,0 0 1px #ccc;}
+.friend-block a {text-align: center;float: left;position: relative;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;width: 120px;      height: 132px;}
+.all_friend {float: right}
+#profile-advanced-right {display: none}
+#profile-advanced-left {margin-right: 0}
+#profile-advanced-details {margin-right: 0;background: #EFEFEF}
+#profile-advanced-layout #new-message {margin-top: 0}
+#profile-advanced-left .main {margin: 0}
+#profile-advanced-details div.separator,#new-message-link img {display: none}
+#profile-advanced-details .main-content {padding: 0;background: #EFEFEF;border: 0;margin-top: 10px;}
+#profile-advanced-details dl,#profile-advanced-details .stats-field {margin: 10px 0;background: white;padding: 5px 0;width: 100%}
+#profile-advanced-details dt,#profile-advanced-details dd {padding: 0 5px}
+#profile-advanced-details .subtitle {font-size: 18px;font-weight: bold;color: white}
+#profile-advanced-details .stats-field legend {display: inline-block;text-align: center;font-size: 20px;padding: 10px 20px;color: darkmagenta;background: #EFEFEF}
+#profile-advanced-details .pagination{font-size:0;margin-bottom:0;vertical-align:middle;float: left;display: block;width: 100%;line-height: 40px;text-align: center;}
+#profile-advanced-details .pagination a, #profile-advanced-details .pagination b{background: white;font-size: 14px;margin-right:5px;padding: 5px 9px;border: 1px solid #ccc;font-weight: bold;cursor: no-drop;}
+
+#profile-advanced-details .pagination b {background: #44AAEE;color: white}
+#profile-advanced-details .pagination a:hover{background: #4ae;color: white;cursor: pointer;}
+#profile-advanced-details .pagination a img {
+zoom: 2;}
+#profile-advanced-details ol {padding-left: 0;float: left;width: 100%;}
+#profile-advanced-details .message-header {background: #0B8C8C;color: white;font-size: 0;margin-bottom: 0;}
+.message-header img {display: none}
+.message-header a, .message-header .message-date {font-size: 11px}
+.message-text {padding: 5px 10px;line-height: 20px;background: white;word-wrap: break-word;word-break: break-word;}
+.avatar img {width: 80px;border: 5px double #ccc;border-radius: 4px}
+#profile-advanced-details .message-block {margin-left: 100px;background: transparent;}
+#profile-advanced-details ol li {margin-bottom: 0px;}
+#profile-advanced-details .avatar {width: inherit;border: 0;}
+#profile-advanced-details .bottom,#profile-advanced-layout {display: none;margin-top: 50px;}
+#friend_add {margin-top: 20px;text-align: right;}
+#wall_center a[href^="/profile?"], #profile-advanced-details .message-footer li a[href^="/u"] {font-size: 0;display: inline-block;line-height: 30px;padding: 0 10px;text-align: center;background: #91FD19;margin-right: 30px;color: white;border: 2px solid #ccc;border-radius: 4px;}
+#wall_center a[href^="/profile?"]:before {font-size: 24px;font-family: Tahoma,FontAwesome;margin-right: 5px;vertical-align: middle;}
+#wall_center a[href*="friend="]:before,.walluser a[href*="foe="]:before {#friend_adda: before;content: "\f234";font-size: 24px;}
+#wall_center a[href*="friend="]:after {content: "Kết Bạn";font-size: 15px;font-weight: bold;vertical-align: middle;}
+#wall_center a[href*="foe="]:after {content: "Gây Thù";font-size: 15px;font-weight: bold;vertical-align: middle;}
+#wall_center a[href*="foe="]:before {content: "\f235";}
+#wall_center a[href*="foe="] {background: red;}
+#profile-advanced-details .message-footer li a {line-height: inherit;padding: 5px 20px;font-size: 0}
+#profile-advanced-details .message-footer li a:before, #profile-advanced-details .message-footer li a:after {font-size: 15px;display: inline-block;margin-top: 0;margin-right: 5px;float: left}
+#profile-advanced-details .message-footer li:after {display: none}
+#profile-advanced-details .message-footer {margin: 5px 0;padding-left: 0;padding: 5px 0;}
+#profile-advanced-details .message-footer li a[href^="/u"]:before {font-family: FontAwesome,Tahoma}
+#profile-advanced-details .message-footer li a[href^="/u"]:before {content: "\f007  Xem Thông Tin"}
+#profile-advanced-details .message-footer li a[href*="wall?d"]:before {content: "\f1f8  Xóa Tin"!important}
+#profile-advanced-details .message-footer li a[href*="wall?d"] {background: darkred!Important}
+#profile-advanced-details .message-footer li a[href*="wall?s"]:before {content: "\f070  Ẩn Tin"!important}
+#profile-advanced-details .message-footer li a[href*="wall?s"] {background: darkmagenta!important}
+#profile-advanced-details .message-footer li a[href^="/u"] {line-height: inherit;padding: 5px 20px;font-size: 0;margin-right: 5px;background: darkgoldenrod}
+#new-message-link a[title^="New"],#new-message-link a[title^="New"] span {font-size: 0;}
+#new-message-link a[title^="New"]:before {content: "\f067  Viết Lên Tường";font-size: 17px;font-family: Tahoma,FontAwesome;}   
+#wall_center a[href^="/profile?"]:hover,#profile-advanced-details .message-footer li a:hover {background: black!Important;} 
+/* loading */
+.loading {display:none;position: fixed;left: 0;right: 0;text-align: center;top: 0;bottom: 0;background: rgba(0, 0, 0, 0.49);z-index: 999;cursor: progress;}
+.dots-loader {float: none;}
+.load_content {position: fixed;top: 40%;bottom: 0;left: 0;right: 0;}
+.load_text {color: white;margin-top: 30px;font-size: 20px;}
+/* Wall */
+.infowall {margin-top: 10px;padding: 10px;background: white;margin-bottom: 30px;text-align: center;color: red;font-size: 20px;}
+#profile-advanced-details[data$="contact"] a[href^="/profile"] {background: none;padding: 0;border: none;}
+li.avata_wall img {height: inherit!Important;top: inherit!Important;bottom: -25px;}
+#field_id2,#profile_field_2_2{display:none}
+@-moz-keyframes dots-loader {0% {-moz-box-shadow: #f86 -14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;box-shadow: #f86 -14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;}8.33% {-moz-box-shadow: #f86 14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;box-shadow: #f86 14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;}16.67% {-moz-box-shadow: #f86 14px 14px 0 7px, #fc6 14px 14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;box-shadow: #f86 14px 14px 0 7px, #fc6 14px 14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;}25% {-moz-box-shadow: #f86 -14px 14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px 14px 0 7px, #4ae -14px 14px 0 7px;box-shadow: #f86 -14px 14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px 14px 0 7px, #4ae -14px 14px 0 7px;}33.33% {-moz-box-shadow: #f86 -14px -14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae -14px -14px 0 7px;box-shadow: #f86 -14px -14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae -14px -14px 0 7px;}41.67% {-moz-box-shadow: #f86 14px -14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;box-shadow: #f86 14px -14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;}50% {-moz-box-shadow: #f86 14px 14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;box-shadow: #f86 14px 14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;}58.33% {-moz-box-shadow: #f86 -14px 14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;box-shadow: #f86 -14px 14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;}66.67% {-moz-box-shadow: #f86 -14px -14px 0 7px, #fc6 -14px -14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;box-shadow: #f86 -14px -14px 0 7px, #fc6 -14px -14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;}75% {-moz-box-shadow: #f86 14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px -14px 0 7px, #4ae 14px -14px 0 7px;box-shadow: #f86 14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px -14px 0 7px, #4ae 14px -14px 0 7px;}83.33% {-moz-box-shadow: #f86 14px 14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae 14px 14px 0 7px;box-shadow: #f86 14px 14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae 14px 14px 0 7px;}91.67% {-moz-box-shadow: #f86 -14px 14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;box-shadow: #f86 -14px 14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;}100% {-moz-box-shadow: #f86 -14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;box-shadow: #f86 -14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;}}
+@-webkit-keyframes dots-loader {0% {-webkit-box-shadow: #f86 -14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;box-shadow: #f86 -14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;}8.33% {-webkit-box-shadow: #f86 14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;box-shadow: #f86 14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;}16.67% {-webkit-box-shadow: #f86 14px 14px 0 7px, #fc6 14px 14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;box-shadow: #f86 14px 14px 0 7px, #fc6 14px 14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;}25% {-webkit-box-shadow: #f86 -14px 14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px 14px 0 7px, #4ae -14px 14px 0 7px;box-shadow: #f86 -14px 14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px 14px 0 7px, #4ae -14px 14px 0 7px;}33.33% {-webkit-box-shadow: #f86 -14px -14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae -14px -14px 0 7px;box-shadow: #f86 -14px -14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae -14px -14px 0 7px;}41.67% {-webkit-box-shadow: #f86 14px -14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;box-shadow: #f86 14px -14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;}50% {-webkit-box-shadow: #f86 14px 14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;box-shadow: #f86 14px 14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;}58.33% {-webkit-box-shadow: #f86 -14px 14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;box-shadow: #f86 -14px 14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;}66.67% {-webkit-box-shadow: #f86 -14px -14px 0 7px, #fc6 -14px -14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;box-shadow: #f86 -14px -14px 0 7px, #fc6 -14px -14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;}75% {-webkit-box-shadow: #f86 14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px -14px 0 7px, #4ae 14px -14px 0 7px;box-shadow: #f86 14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px -14px 0 7px, #4ae 14px -14px 0 7px;}83.33% {-webkit-box-shadow: #f86 14px 14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae 14px 14px 0 7px;box-shadow: #f86 14px 14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae 14px 14px 0 7px;}91.67% {-webkit-box-shadow: #f86 -14px 14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;box-shadow: #f86 -14px 14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;}100% {-webkit-box-shadow: #f86 -14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;box-shadow: #f86 -14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;}}
+@keyframes dots-loader {0% {-moz-box-shadow: #f86 -14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;-webkit-box-shadow: #f86 -14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;box-shadow: #f86 -14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;}8.33% {-moz-box-shadow: #f86 14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;-webkit-box-shadow: #f86 14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;box-shadow: #f86 14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;}16.67% {-moz-box-shadow: #f86 14px 14px 0 7px, #fc6 14px 14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;-webkit-box-shadow: #f86 14px 14px 0 7px, #fc6 14px 14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;box-shadow: #f86 14px 14px 0 7px, #fc6 14px 14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;}25% {-moz-box-shadow: #f86 -14px 14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px 14px 0 7px, #4ae -14px 14px 0 7px;-webkit-box-shadow: #f86 -14px 14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px 14px 0 7px, #4ae -14px 14px 0 7px;box-shadow: #f86 -14px 14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px 14px 0 7px, #4ae -14px 14px 0 7px;}33.33% {-moz-box-shadow: #f86 -14px -14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae -14px -14px 0 7px;-webkit-box-shadow: #f86 -14px -14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae -14px -14px 0 7px;box-shadow: #f86 -14px -14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae -14px -14px 0 7px;}41.67% {-moz-box-shadow: #f86 14px -14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;-webkit-box-shadow: #f86 14px -14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;box-shadow: #f86 14px -14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;}50% {-moz-box-shadow: #f86 14px 14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;-webkit-box-shadow: #f86 14px 14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;box-shadow: #f86 14px 14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;}58.33% {-moz-box-shadow: #f86 -14px 14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;-webkit-box-shadow: #f86 -14px 14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;box-shadow: #f86 -14px 14px 0 7px, #fc6 -14px 14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;}66.67% {-moz-box-shadow: #f86 -14px -14px 0 7px, #fc6 -14px -14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;-webkit-box-shadow: #f86 -14px -14px 0 7px, #fc6 -14px -14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;box-shadow: #f86 -14px -14px 0 7px, #fc6 -14px -14px 0 7px, #6d7 -14px -14px 0 7px, #4ae 14px -14px 0 7px;}75% {-moz-box-shadow: #f86 14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px -14px 0 7px, #4ae 14px -14px 0 7px;-webkit-box-shadow: #f86 14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px -14px 0 7px, #4ae 14px -14px 0 7px;box-shadow: #f86 14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px -14px 0 7px, #4ae 14px -14px 0 7px;}83.33% {-moz-box-shadow: #f86 14px 14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae 14px 14px 0 7px;-webkit-box-shadow: #f86 14px 14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae 14px 14px 0 7px;box-shadow: #f86 14px 14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae 14px 14px 0 7px;}91.67% {-moz-box-shadow: #f86 -14px 14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;-webkit-box-shadow: #f86 -14px 14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;box-shadow: #f86 -14px 14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;}100% {-moz-box-shadow: #f86 -14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;-webkit-box-shadow: #f86 -14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;box-shadow: #f86 -14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;}}
+.dots-loader:not(:required) {overflow: hidden;position: relative;text-indent: -9999px;display: inline-block;width: 7px;height: 7px;background: transparent;border-radius: 100%;-moz-box-shadow: #f86 -14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;-webkit-box-shadow: #f86 -14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;box-shadow: #f86 -14px -14px 0 7px, #fc6 14px -14px 0 7px, #6d7 14px 14px 0 7px, #4ae -14px 14px 0 7px;-moz-animation: dots-loader 5s infinite ease-in-out;-webkit-animation: dots-loader 5s infinite ease-in-out;animation: dots-loader 5s infinite ease-in-out;-moz-transform-origin: 50% 50%;-ms-transform-origin: 50% 50%;-webkit-transform-origin: 50% 50%;transform-origin: 50% 50%;}
+#wall_center a[href*="remove="]:after {content: "Xóa Bạn";font-size: 15px;font-weight: bold;vertical-align: middle;}
+#wall_center a[href*="remove="]:before {content: "\f00d";font-family: FontAwesome;margin-top: 22px;}
+#wall_center a[href*="remove="] {background: red;}
+#friend_add {position: absolute;bottom: 0;right: 0;}
+#main-content div + div[style*="clear"] {display: none;}
+#main-content div + div[style*="clear"] {display: none}
+#wall_content .clear {display: none}
+.message-header a,.message-header .message-date {font-size: 15px;text-shadow: 0 0 1px white,0 0 1px white,0 0 1px white;display: inline-block}
+#profile-advanced-details .message-date {float: right;display: inline-block}
+.message-header a {float: left;display: inline-block;}
